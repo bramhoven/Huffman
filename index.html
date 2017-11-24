@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Huffman Encoding</title>
+		
+		<link rel="stylesheet" href="/stylesheet.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="/huffman.js"></script>
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	</head>
+		
+	<body>
+		<h3>Huffman coding</h3>
+		<div class="huffman-container">
+			<strong>Input: </strong>
+			<textarea class="huffman-input mdl-textfield__input"></textarea>
+			
+			<div class="huffman-output">
+				<p><strong>Compressed: </strong><span class="huffman-compression"></span></p>
+				
+				<strong>ASCII Bits: </strong>
+				<textarea class="huffman-ascii mdl-textfield__input" readonly></textarea>
+				
+				<strong>Bits: </strong>
+				<textarea class="huffman-bits mdl-textfield__input" readonly></textarea>
+				
+				<strong>Decoded: </strong>
+				<textarea class="huffman-decoded mdl-textfield__input" readonly></textarea>
+				
+				</br>
+				
+				<ul class="tree-head">
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
