@@ -1,3 +1,9 @@
+.h3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .huffman-container {
     width: 75%;
     display: block;
@@ -124,6 +130,3 @@ right connector from last child*/
 .huffman-output li a:hover+ul ul::before{
 	border-color:  #94a0b4;
 }
-
-/*Thats all. I hope you enjoyed it.
-Thanks :)*/
